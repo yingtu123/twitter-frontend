@@ -14,7 +14,6 @@ const Login = ()=>{
     const values = form.getFieldsValue()
     Dialog.alert({
       content: <pre>{JSON.stringify(values, null, 2)}</pre>,
-      text: 'OK' 
     })
   }
 
