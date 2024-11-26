@@ -1,0 +1,16 @@
+.birthdayInput{
+  composes: input from '../../common.module.css';
+  margin-top: 10px;
+}
+.datePickerIcon{
+  height: 20px;
+  float:right;
+}
+.birthdayPlaceholder{
+  font-size: 15px;
+  height: 30px;
+  line-height: 30px;
+}
+.birthdayTitleItem{
+  color: tBlue;
+}
